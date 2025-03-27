@@ -20,7 +20,7 @@ export const SwitchTheme = ({ className }: { className?: string }) => {
 
   useEffect(() => {
     setMounted(true);
-    setTheme("dark");
+    setTheme("light");
   }, []);
 
   if (!mounted) return null;
