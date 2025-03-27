@@ -14,6 +14,7 @@ const nextConfig = {
     config.externals.push("pino-pretty", "lokijs", "encoding");
     return config;
   },
+  transpilePackages: ['three'],
 };
 
 const isIpfs = process.env.NEXT_PUBLIC_IPFS_BUILD === "true";

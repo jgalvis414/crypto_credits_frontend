@@ -34,6 +34,7 @@ export const RPC_CHAIN_NAMES: Record<number, string> = {
   [chains.baseSepolia.id]: "base-sepolia",
   [chains.celo.id]: "celo-mainnet",
   [chains.celoAlfajores.id]: "celo-alfajores",
+  [chains.avalancheFuji.id]: "avalanche-fuji",
 };
 
 export const getAlchemyHttpUrl = (chainId: number) => {
