@@ -20,6 +20,7 @@ export const SwitchTheme = ({ className }: { className?: string }) => {
 
   useEffect(() => {
     setMounted(true);
+    setTheme("dark");
   }, []);
 
   if (!mounted) return null;
@@ -30,7 +31,6 @@ export const SwitchTheme = ({ className }: { className?: string }) => {
         id="theme-toggle"
         type="checkbox"
         className="toggle toggle-primary bg-primary hover:bg-primary border-primary"
-        onChange={handleToggle}
         checked={isDarkMode}
       />
       <label htmlFor="theme-toggle" className={`swap swap-rotate ${!isDarkMode ? "swap-active" : ""}`}>

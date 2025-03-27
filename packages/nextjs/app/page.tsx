@@ -151,7 +151,7 @@ export default function Home() {
             <img src="/chainlink-logo.svg" className="h-8" alt="Chainlink" />
             <img src="/solidity-logo.svg" className="h-8" alt="Solidity" />
           </div>
-          <p className="text-gray-400">&copy; 2024 Credit3.0. Todos los derechos reservados.</p>
+          <p className="text-gray-400">&copy; 2025 CryptoCredits. Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>
